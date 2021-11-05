@@ -1,47 +1,86 @@
 body {
-    font-family: 'Times New Roman'
+  font-family: "Times New Roman";
 }
 .imagen-perfil {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
-.fondo-gris{
-    background-color: #E5E5E5;
+.fondo {
+  background-image: url("../src/imagenfondo.jpg");
+}
+.fondo-gris {
+  background-color: #e5e5e5;
 }
 h1 {
-    text-align: center;
-    background-color: #C4C4C4;
-    color: #005677;
+  text-align: center;
+  background-color: #c4c4c4;
+  color: #005677;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .fondo-blanco {
-    background-color: white;
+  background-color: white;
 }
-div,h1,h3,header,ul{
-    margin: 0 0 0 0;
+div,
+h1,
+h3,
+header,
+ul {
+  margin: 0 0 0 0;
 }
-h3{
-    background-color: #C4C4C4;
-    color: #005677;
+h3 {
+  background-color: #c4c4c4;
+  color: #005677;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ul {
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.texto-negrita{
+.texto-negrita {
+  font-weight: bold;
+}
+.texto-cursiva {
+  font-style: italic;
+}
+.pie-de-pagina {
+  background-color: #005677;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 150px 15px 0;
+  text-align: right;
+}
+.margen {
+  margin-left: 15px;
+}
+.sobre-mi {
+  background-color: #c4c4c4;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 8px 8px 8px;
+  color: #005677;
+  border-width: 1px;
+  transition: 1s;
+  text-align: center;
+}
+.github {
+  color: white;
+  background-color: white;
+  width: 20px;
+  border-radius: 15%;
+}
+button:hover {
+  background-color: aliceblue;
+  transition: 20s;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+p{
+    color: grey;
+    background-color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-}
-.texto-cursiva{
-    font-style: italic;
-}
-.pie-de-pagina{
-    background-color: #005677;
-    color: white;
-    text-align: right;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 15px 150px 15px 0;
-}
-.margen{
-    margin-left: 15px;
 }
